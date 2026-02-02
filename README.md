@@ -15,9 +15,8 @@ It is built using Vanilla JavaScript, HTML, and CSS, fully compliant with Chrome
 
 | Workspaces View | Focus Mode View |
 |:---:|:---:|
-| ![Workspaces UI](<img width="360" height="258" alt="Screenshot 2026-02-02 at 10 30 10 PM" src="https://github.com/user-attachments/assets/7739cd33-0ee7-4bfb-bf40-94623f7e930e"/>
-) | ![Focus Mode UI](<img width="361" height="600" alt="Screenshot 2026-02-02 at 10 30 24 PM" src="https://github.com/user-attachments/assets/132d3e0f-087d-44d9-95bc-1e5b32952188"/>
-) |
+| <img width="360" height="258" alt="Screenshot 2026-02-02 at 10 30 10 PM" src="https://github.com/user-attachments/assets/7739cd33-0ee7-4bfb-bf40-94623f7e930e"/> | <img width="361" height="600" alt="Screenshot 2026-02-02 at 10 30 24 PM" src="https://github.com/user-attachments/assets/132d3e0f-087d-44d9-95bc-1e5b32952188"/>
+|
 
 ## Installation
 

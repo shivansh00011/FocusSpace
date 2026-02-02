@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusSpace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <h1>FocusSpace</h1>
+      </div>
+    </header>
+    
+    <div class="tabs-container">
+      <div class="tabs">
+        <button id="tab-workspaces" class="active">Workspaces</button>
+        <button id="tab-focus">Focus Mode</button>
+        <div class="tab-slider"></div>
+      </div>
+    </div>
+
+    <main>
+      <div id="view-workspaces" class="view active">
+        <div class="input-card">
+          <input type="text" id="workspace-name" placeholder="New workspace name...">
+          <button id="btn-save" title="Save tabs">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            Save
+          </button>
+        </div>
+        
+        <div class="list-header">Your Spaces</div>
+        <ul id="workspace-list">
+          </ul>
+        
+        <div id="empty-state" class="empty-state hidden">
+          <p>No workspaces yet. Save your open tabs above!</p>
+        </div>
+      </div>
+
+      <div id="view-focus" class="view hidden">
+        <div class="timer-card">
+          <div class="timer-circle">
+            <h1 id="timer">00:00</h1>
+          </div>
+        </div>
+        
+        <div class="controls">
+          <div class="input-wrapper">
+            <label>Minutes</label>
+            <input type="number" id="minutes" min="1" max="120" value="25">
+          </div>
+          <button id="btn-start-focus" class="btn-primary">Start Focus</button>
+          <button id="btn-stop-focus" class="btn-danger hidden">Stop Session</button>
+        </div>
+
+        <div class="block-manager">
+          <div class="list-header" style="margin-top: 20px;">Blocked Sites</div>
+          
+          <div class="input-card small-input">
+            <input type="text" id="site-input" placeholder="Add site (e.g. tiktok.com)">
+            <button id="btn-add-site" class="btn-icon-only">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+          </div>
+
+          <ul id="blocked-list" class="blocked-list">
+            </ul>
+        </div>
+
+      </div>
+  <script src="popup.js"></script>
+</body>
+</html>

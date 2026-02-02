@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "FocusSpace: Workspaces & Focus Timer",
+    "version": "1.0",
+    "description": "Organize tabs into workspaces and block distractions.",
+    "permissions": [
+      "tabs",
+      "storage",
+      "alarms"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }

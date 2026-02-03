@@ -24,7 +24,7 @@ Since this extension is in development (or if you prefer to run it from source),
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/focus-space.git](https://github.com/your-username/focus-space.git)
+    git clone https://github.com/shivansh00011/FocusSpace.git
     ```
     (Or download the ZIP file and extract it to a folder).
 
